@@ -143,13 +143,13 @@ li:hover > .submenu_for_diary{
 .paper_data_aw41{
   position: absolute;
   top: 6%;
-  left: 23%;
+  left: 33%;
 }
  
 .datatext_aw41{
   position: absolute;
-  top: 10%;
-  left: 32%;
+  top: 9%;
+  left: 42%;
   font-family:'Bad Script';
   font-size: 35px;
 }
@@ -157,19 +157,20 @@ li:hover > .submenu_for_diary{
 .paper_text_aw41{
   position: absolute;
   top: 21%;
-  left: 7%;
-  width: 65%;
+  margin-left: -1%;
+  width: 74%;
   height: 70%;
 }
+
 
 .text_aw41{
   position: absolute;
   font-family:'Bad Script';
   font-size: 30px;
   line-height: 49px;
-  top: 23%;
-  left: 11%;
-  width:58%;
+  top: 27%;
+  left: 3%;
+  width:55%;
   height: 26%;
 }
 
@@ -203,255 +204,475 @@ li:hover > .submenu_for_diary{
   right: 5%;
 }
 
-
-@media only screen and (max-width : 1920px) {
-  .paper_data_aw41{
-    top: 5%;
-    left: 15%;
-    width: 36%;
-  }
   
-  .datatext_aw41 {
-    top: 9%;
-    left: 22.5%;
-    font-size: 40px;
-  }
-  
-  .paper_text_aw41{
-    top: 21%;
-    height: 70%;
-    width: 75%;
-  }
-  
-  .text_aw41{
-    font-size: 32px;
-    line-height: 49px;
-    top: 26%;
-    left: 10%;
-    width: 70%;
-  }
+  @media only screen and (max-width : 1600px){
+    
+.autumn-winter1941{
+  background-image: url(img/fon_aw41.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
 }
 
-@media only screen and (max-width : 1440px){
+.snow_aw41{
+  position: fixed;
+}
+
+#menu_toggle_diary{
+  opacity: 0;
+  }
+
+.menu_btn_diary {
+  position: fixed;
+  padding: 0;
+  top: 15px;
+  right: 60px;
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  z-index: 2;
+  }
+
+li{
+  position: relative;
+}
+
+.menu_for_diary{
+  position: fixed;
+  display: none;
+  text-align: center;
+  list-style: none;
+  border: 4.05px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 0;
+  top: 60px;
+  right: -100%;
+  width: 180px;
+  z-index: 1;
+}
+
+.submenu_for_diary{
+  position: absolute;
+  list-style: none;
+  text-align: center;
+  border: 4.05px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  z-index: 1;
+}
+
+a.a_menu_diary{
+  display: block;
+  padding: 1em;
+  font-family: 'Cormorant SC';
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #FFFFFF;
+  letter-spacing: 0.2em;
+  background-color: rgba(0, 0, 0, 0.4);
+  white-space: nowrap;
+}
+
+li:hover > a.a_menu_diary,
+a.a_menu_diary:hover{
+  background-color: rgb(70, 70, 70);
+}
+
+li:hover > .submenu_for_diary{
+  clip: auto;
+  width: auto;
+  height: auto;
+  margin: 0;
+  width: 50%;
+}
+
+.menu_for_diary .submenu_for_diary{
+  top: 0;
+  right: 102%;
+}
+
+#menu_toggle_diary:checked ~ .menu_for_diary {
+  display: block;
+  right: 60px;
+}
+
+.menu_box_diary{
+  transition-duration: 1s;
+}
   .paper_data_aw41{
-    top: 5%;
-    left: 23%;
-    width: 33%;
+    top: 3vw;
+    left: 33vw;
+  width: 33vw;
   }
   
   .datatext_aw41{
-    top: 8.5%;
-    left: 30.5%;
-    font-size: 32px;
+    position: absolute;
+    top: 5vw;
+    left: 43vw;
+  font-size: 2vw;
   }
   
   .paper_text_aw41{
-    top: 19%;
-    height: 67%;
-    width: 75%;
+    position: absolute;
+    top: 10vw;
+    margin-left: -1vw;
+    width: 78vw;
+    height: 35vw;
   }
+  
   
   .text_aw41{
-    font-size: 30px;
-    line-height: 49px;
-    top: 24%;
-    left: 10%;
-    width: 70%;
+    position: absolute;
+    font-family:'Bad Script';
+    font-size: 1.8vw;
+    line-height: 3.06vw;
+    top: 13vw;
+    left: 3vw;
+    width:60vw;
+    height: 26vw;
   }
+  
+.back_aw1941{
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
-@media only screen and (max-width : 1280px) {
-  .paper_data_aw41{
-    top: 5%;
-    left: 15%;
-    width: 40%;
-  }
-  
-  .datatext_aw41{
-    top: 8.5%;
-    left: 24%;
-    font-size: 34px;
-  }
-  
-  .paper_text_aw41{
-    top: 17%;
-    height: 73%;
-    width: 77%;
-  }
-  
-  .text_aw41{
-    font-size: 30px;
-    line-height: 45px;
-    top: 22%;
-    left: 11%;
-    width: 71%;
-  }
+.paper_back_aw41{
+  position: relative;
 }
 
-@media only screen and (max-width : 960px) {
-  .paper_data_aw41{
-    top: 5%;
-    left: 15%;
-    width: 40%;
-  }
-  
-  .datatext_aw41{
-    top: 8%;
-    left: 23%;
-    font-size: 30px;
-  }
-  
-  .paper_text_aw41{
-    top: 17%;
-    height: 73%;
-    width: 77%;
-  }
-  
-  .text_aw41{
-    font-size: 24px;
-    line-height: 40px;
-    top: 20%;
-    left: 10%;
-    width: 71%;
-  }
+.arrowback_aw41{
+  position: absolute;
+  left: 5%;
 }
 
-@media only screen and (max-width : 800px){
-  
-  .paper_data_aw41{
-    top: 7%;
-    left: 17%;
-    width: 45%;
-  }
-  
-  .datatext_aw41{
-    top: 10%;
-    left: 26%;
-    font-size: 26px;
-  }
-  
-  .paper_text_aw41{
-    top: 17%;
-    height: 71%;
-    width: 75%;
-  }
-  
-  .text_aw41{
-    font-size: 20px;
-    line-height: 39px;
-    top: 20%;
-    left: 11%;
-    width: 67%;
-  }  
+.forward_aw1941{
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
-@media only screen and (max-width : 660px){
-  
-  .paper_data_aw41{
-    top: 7%;
-    left: 15%;
-    width: 50%;
-  }
-  
-  .datatext_aw41{
-    top: 10%;
-    left: 26%;
-    font-size: 22px;
-  }
-  
-  .paper_text_aw41{
-    top: 19%;
-    height: 70%;
-    width: 75%;
-  }
-  
-  .text_aw41{
-    font-size: 20px;
-    line-height: 30px;
-    top: 22%;
-    left: 11%;
-    width: 65%;
-  }
+.paper_forward_aw41{
+  position: relative;
 }
 
-@media only screen and (max-width : 480px){
-  
-  .paper_data_aw41{
-    top: 8%;
-    left: 13%;
-    height: 9%;
-    width: 50%;
-  }
-  
-  .datatext_aw41{
-    top: 11%;
-    left: 21%;
-    font-size: 20px;
-  }
-  
-  .paper_text_aw41{
-    top: 19%;
-    height: 70%;
-    width: 77%;
-  }
-  
-  .text_aw41{
-    font-size: 18px;
-    line-height: 27px;
-    top: 22%;
-    left: 10%;
-    width: 73%;
-  }
-
-  .back_aw1941{
-    height: 8%;
-  }
-
-  .forward_aw1941{
-    height: 8%;
-  }
+.arrowforward_aw41{
+  position: absolute;
+  right: 1vw;
 }
+
+  }
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  @media only screen and (max-width : 1440px){
+
+
+
+    .paper_data_aw41{
+      top: 3vw;
+      left: 33vw;
+    width: 33vw;
+    }
+    
+    .datatext_aw41{
+      position: absolute;
+      top: 5vw;
+      left: 43vw;
+    font-size: 2vw;
+    }
+    
+    .paper_text_aw41{
+      position: absolute;
+      top: 12vw;
+      margin-left: -1vw;
+      width: 78vw;
+      height: 36vw;
+    }
+    
+    
+    .text_aw41{
+      position: absolute;
+      font-family:'Bad Script';
+      font-size: 1.8vw;
+      line-height: 3.06vw;
+      top: 15vw;
+      left: 3vw;
+      width:62vw;
+      height: 26vw;
+    }
+
+
+
+
+
+
+  }
+  @media only screen and (max-width : 1024px){
+
+
+
+    .paper_data_aw41{
+      top: 3vw;
+      left: 33vw;
+    width: 33vw;
+    }
+    
+    .datatext_aw41{
+      position: absolute;
+      top: 5vw;
+      left: 43vw;
+    font-size: 2vw;
+    }
+    
+    .paper_text_aw41{
+      position: absolute;
+      top: 15vw;
+      margin-left: -1vw;
+      width: 78vw;
+      height: 35vw;
+    }
+    
+    
+    .text_aw41{
+      position: absolute;
+      font-family:'Bad Script';
+      font-size: 1.8vw;
+      line-height: 3.06vw;
+      top: 18vw;
+      left: 3vw;
+      width:61vw;
+      height: 26vw;
+    }
+
+
+
+
+  }
+  @media only screen and (max-width : 800px){
+
+
+
+    .paper_data_aw41{
+      top: 5vw;
+      left: 33vw;
+    width: 33vw;
+    height: 9vw;
+    }
+    
+    .datatext_aw41{
+      position: absolute;
+      top: 8vw;
+      left: 40vw;
+    font-size: 3vw;
+    }
+    
+    .paper_text_aw41{
+      position: absolute;
+      top: 22vw;
+      margin-left: -1vw;
+      width: 90vw;
+      height: 60vw;
+    }
+    
+    
+    .text_aw41{
+      position: absolute;
+      font-family:'Bad Script';
+      font-size: 2.8vw;
+      line-height: 3.5vw;
+      top: 27vw;
+      left: 3vw;
+      width:70vw;
+      height: 35vw;
+    }
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+  @media only screen and (max-width : 700px){
+    .menu_btn_diary {
+      position: fixed;
+      padding: 0;
+      top: 1vw;
+      right: 13.57vw;
+      width: 5.71vw;
+      height: 5.71vw;
+      cursor: pointer;
+      z-index: 2;
+      }
+
+    }
+
+  @media only screen and (max-width : 500px){
+
+    .menu_btn_diary {
+      position: fixed;
+      padding: 0;
+      top: 1vw;
+      right: 20.57vw;
+      width: 2.71vw;
+      height: 2.71vw;
+      cursor: pointer;
+      z-index: 2;
+      }
+
+    
+
+    .paper_data_aw41{
+      top: 8vw;
+      left: 33vw;
+    width: 39vw;
+    height: 11vw;
+    }
+    
+    .datatext_aw41{
+      position: absolute;
+      top: 11vw;
+      left: 40vw;
+    font-size: 4vw;
+    }
+    
+    .paper_text_aw41{
+      position: absolute;
+      top: 33vw;
+      margin-left: -1vw;
+      width: 97vw;
+      height: 80vw;
+    }
+    
+    
+    .text_aw41{
+      position: absolute;
+      font-family:'Bad Script';
+      font-size: 3,8vw;
+      line-height: 5vw;
+      top: 41vw;
+      left: 4vw;
+      width:77vw;
+      height: 45vw;
+    }
+.logo{
+  margin-top: 3vw;
+
+  height: 19vw;
+  width: 19vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width : 320px){
+
+  .menu_btn_diary {
+    position: fixed;
+    padding: 0;
+    top: 4vw;
+    right: 15.57vw;
+    width: 2.71vw;
+    height: 2.71vw;
+    cursor: pointer;
+    z-index: 2;
+    }
+
   
+
   .paper_data_aw41{
-    top: 13%;
-    left: 5%;
-    height: 8%;
-    width: 59%;
+    top: 10vw;
+    left: 29vw;
+  width: 49vw;
+  height: 15vw;
   }
   
   .datatext_aw41{
-    top: 16%;
-    left: 17%;
-    font-size: 14px;
+    position: absolute;
+    top: 15vw;
+    left: 38vw;
+  font-size: 5vw;
   }
   
   .paper_text_aw41{
-    top: 21%;
-    left: 5%;
-    height: 71%;
-    width: 85%;
+    position: absolute;
+    top: 47vw;
+    margin-left: -1vw;
+    width: 97vw;
+    height: 120vw;
   }
   
+  
   .text_aw41{
-    font-size: 15px;
-    line-height: 22px;
-    top: 24%;
-    left: 10%;
-    width: 75%;
+    position: absolute;
+    font-family:'Bad Script';
+    font-size: 4.4vw;
+    line-height: 5.2vw;
+    top: 56vw;
+    left: 4vw;
+    width:78vw;
+    height: 80vw;
   }
+.logo{
+margin-top: 3vw;
 
-  .back_aw1941{
-    height: 7%;
-  }
-
-  .forward_aw1941{
-    height: 7%;
-  }
-
-  .menu_btn_diary{
-    top: 1%;
-    right: 15%;
-  }
+height: 19vw;
+width: 19vw;
 }
+
+.paper_back_aw41{
+  height: 10vw;
+  width: 20vw;
+}
+.arrowback_aw41{
+  margin-left: -6vw;
+margin-top: -3vw;
+}
+.paper_forward_aw41{
+  height: 15vw;
+  width: 30vw;
+
+}
+}
+.arrowforward_aw41{
+margin-right: -3vw;
+}
+
+  
